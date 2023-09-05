@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="MSMSGUI.BL.Admin">
+    <Position X="8.75" Y="1.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAABAACAAAAAgAAAAAAAAAAAAA=</HashCode>
+      <FileName>BL\Admin.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSMSGUI.BL.Category">
+    <Position X="15.5" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIBAAACAQ=</HashCode>
+      <FileName>BL\Category.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Field Name="products" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="MSMSGUI.BL.Customer">
+    <Position X="2" Y="5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAABAAAAAAAAABAAAAAAAAAACAAACAAAAAgA=</HashCode>
+      <FileName>BL\Customer.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Field Name="history" />
+      <Property Name="Cart" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="MSMSGUI.BL.Employee">
+    <Position X="5.75" Y="4.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAGAAAAAAAAAAAAAABAAAAAAAAECAAAAAACAAAAI=</HashCode>
+      <FileName>BL\Employee.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSMSGUI.BL.Person">
+    <Position X="4.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAIAAAAAAAAQAAAAAAAACAAAAAAAAAAA=</HashCode>
+      <FileName>BL\Person.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSMSGUI.BL.Product">
+    <Position X="11.25" Y="5.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAABACAAAAAgAAAAABAQAgAAEAYAAAEAAAAAAAgA=</HashCode>
+      <FileName>BL\Product.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSMSGUI.BL.User">
+    <Position X="1.5" Y="1.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAQAAAAEAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>BL\User.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
